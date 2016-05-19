@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/Users/Read/Dropbox/DCSP_Group/UPSSCHEMAS-WSDLs/Track.wsdl" uri="wsdl/Track.wsdl"/>
+    <system systemId="file:/C:/Users/Read/Dropbox/DCSP_Group/UPSSCHEMAS-WSDLs/UPSSecurity.xsd" uri="wsdl/UPSSecurity.xsd"/>
+    <system systemId="file:/C:/Users/Read/Dropbox/DCSP_Group/UPSSCHEMAS-WSDLs/Error1.1.xsd" uri="wsdl/Error1.1.xsd"/>
+    <system systemId="file:/C:/Users/Read/Dropbox/DCSP_Group/UPSSCHEMAS-WSDLs/TrackWebServiceSchema.xsd" uri="wsdl/TrackWebServiceSchema.xsd"/>
+    <system systemId="file:/C:/Users/Read/Dropbox/DCSP_Group/UPSSCHEMAS-WSDLs/common.xsd" uri="wsdl/common.xsd"/>
+</catalog>

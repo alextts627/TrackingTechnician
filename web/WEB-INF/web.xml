@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <description>An app that is made to track user's packages</description>
+    <display-name>Tracking Technician</display-name>
+    <servlet>
+        <servlet-name>processTracking</servlet-name>
+        <servlet-class>controller.processTracking</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>createUser</servlet-name>
+        <servlet-class>controller.createUser</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>removeShipment</servlet-name>
+        <servlet-class>controller.removeShipment</servlet-class>
+    </servlet>
+    <servlet>
+        <description>Servelt to process the login command</description>
+        <servlet-name>LogIn</servlet-name>
+        <servlet-class>controller.LogIn</servlet-class>
+    </servlet>
+    <servlet>
+        <description>Processes the logout function</description>
+        <servlet-name>LogOut</servlet-name>
+        <servlet-class>controller.LogOut</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>processTracking</servlet-name>
+        <url-pattern>/processTracking</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>createUser</servlet-name>
+        <url-pattern>/createUser</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>removeShipment</servlet-name>
+        <url-pattern>/removeShipment</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LogIn</servlet-name>
+        <url-pattern>/LogIn</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LogOut</servlet-name>
+        <url-pattern>/LogOut</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
